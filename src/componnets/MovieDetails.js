@@ -12,7 +12,7 @@ const Moviedetails = () => {
     console.log(movie)
     return (
      <div className="m-details">
-         <div className="m-title"><h1>{movie.original_title}</h1> </div>
+         <div className="m-title"><h1>{movie.title}</h1> </div>
          <div className="m-runtime"><p> {movie.runtime} min</p></div>
          <div className="m-poster_summary">
             <div className="m-poster"> <img src={poster} alt="" /></div>

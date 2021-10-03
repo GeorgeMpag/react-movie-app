@@ -169,3 +169,36 @@ right:2%;
         max-width: 600px;
     }
 }
+
+@media (min-width: 1025px){
+    .image-banner{
+        max-width: 800px;
+        float:left;
+    }
+
+    .body{
+        /* height:28rem; */
+    }
+
+    .movie-details #summary{
+        max-width: 350px;
+        left: 65%;
+        /* right: 20%; */
+        font-size:large;
+        overflow-y: auto;
+        top:5rem;
+        overflow-y:auto ;
+    }
+
+    .movie-details h1{
+        left: 4%;
+        font-size:xx-large;
+    }
+
+    #rating{
+        font-size:xx-large;
+        width: fit-content;
+        height: fit-content;
+    }
+}
+

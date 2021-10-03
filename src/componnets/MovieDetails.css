@@ -48,4 +48,5 @@
 
 .m-poster_summary{
     margin-top: 2em;
+    max-width: 55rem;
 }

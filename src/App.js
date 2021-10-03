@@ -5,7 +5,7 @@ import NewReleases from './componnets/NewReleases';
 import Moviedetails from './componnets/MovieDetails';
 import {HashRouter as Router, Route, Switch} from 'react-router-dom'
 import ResultsPage from './componnets/ResultsPage';
-import Search from './componnets/Search';
+
 
 function App() {
    
