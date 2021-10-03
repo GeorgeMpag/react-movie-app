@@ -3,7 +3,7 @@ import './App.css';
 import Carousel from './componnets/Carousel';
 import NewReleases from './componnets/NewReleases';
 import Moviedetails from './componnets/MovieDetails';
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
+import {HashRouter as Router, Route, Switch} from 'react-router-dom'
 import ResultsPage from './componnets/ResultsPage';
 import Search from './componnets/Search';
 
