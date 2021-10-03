@@ -1,25 +1,37 @@
-import logo from './logo.svg';
+import Navbar from './componnets/Navbar';
 import './App.css';
+import Carousel from './componnets/Carousel';
+import NewReleases from './componnets/NewReleases';
+import Moviedetails from './componnets/MovieDetails';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
+import ResultsPage from './componnets/ResultsPage';
+import Search from './componnets/Search';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+   
+  
+    return (
+      <Router>
+        <div className="App "> 
+          <Navbar/>
+          <Switch>
+            <Route exact path="/">
+              <Carousel  />
+              <NewReleases/>
+            </Route>
+            <Route  path="/moviedetails/:id">
+               <Moviedetails/>
+            </Route>
+            <Route  path="/results/:searchcontent/page:page_number">
+               <ResultsPage/>
+            </Route>
+            
+          </Switch>
+        
+        </div> 
+      </Router>
+    );
+ 
 }
 
 export default App;

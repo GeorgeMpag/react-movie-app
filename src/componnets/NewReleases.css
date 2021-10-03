@@ -1,0 +1,47 @@
+.new-releases{
+    background-color: #1d1d1d;
+    color:white;
+    width: inherit;
+    position:relative
+    /* border: green solid 3px; */
+  
+  }
+.new-releases h2 {
+    margin-left:1.5rem;
+    padding-bottom:.8rem ;
+    
+}
+.new-releases #line{
+    border-bottom:2px solid rgb(59, 59, 59) ;
+    margin: 0 1rem 0 1rem;
+    border-radius: 7%;
+}
+  
+  .cards{
+    max-width:100%;
+    display: inline-flex;
+    overflow: hidden;
+    margin-top: 1.4rem;
+    scroll-behavior: smooth;
+    
+  }
+  .new-movie{
+
+    margin:0 .6rem 0 .6rem ;
+    width: 100%;
+    height: max-content;
+  }
+
+  @media (min-width: 680px){
+
+    .new-releases{
+      font-size: large;
+      height: fit-content;
+      /* border: green solid 3px; */
+    
+    }
+
+
+ 
+   
+}

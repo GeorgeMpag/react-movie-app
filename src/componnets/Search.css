@@ -1,0 +1,63 @@
+input{
+    border-radius: 8px ; 
+    border:solid rgb(70, 68, 68) 2px;
+    padding-left: .4rem;
+    color: rgb(70, 68, 68);
+    position: relative;
+}
+ ::placeholder{
+    color: rgb(168, 167, 167);
+    font-size: xx-small;
+    padding: .4rem;
+}
+input:focus{
+    outline: none;
+}
+
+#suggestions{
+    width: 10.7rem;
+    display: none;
+    flex-direction: column;
+    background-color: rgba(71, 71, 71, 0.616);
+    z-index: 100;
+    position: absolute;
+    border-radius: 7px;
+    /* padding: .6rem; */
+    font-size:small;
+    line-height: 1.4rem;
+    cursor: pointer;
+}
+
+#sug{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#sug span{
+    font-weight:100;
+    
+}
+
+#sug:hover{
+    background-color: rgba(240, 239, 243, 0.808);
+    color:rgb(31, 30, 30)
+}
+
+@media (min-width: 680px){
+    input{
+        width: 15rem;
+        height: 1.4rem;
+        margin-right:2rem ;
+        font-size: medium;
+    }
+
+
+    ::placeholder{
+        font-size: medium;
+       
+    }
+    #suggestions{
+        width: 15rem;
+        font-size:medium;
+    }
+}

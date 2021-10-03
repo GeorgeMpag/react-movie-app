@@ -1,0 +1,25 @@
+import apis from "../apiUrls";
+import './Moviecard.css'
+const Moviecard = ({movie}) => {
+
+
+
+const poster= movie.poster_path ? `${apis.image_api}/original/${movie.poster_path}` : "https://st.depositphotos.com/1987177/3470/v/950/depositphotos_34700099-stock-illustration-no-photo-available-or-missing.jpg"
+
+
+    return ( 
+        <div className="container" onClick={()=>console.log(movie.original_title)}>
+            <div className="card">
+                
+                <div className="poster"><img src={poster} alt="" /></div>
+                <div className="line"></div>
+                <div className="tittle">{movie.title}</div>
+                <div className="rating"><p>Rating: {movie.vote_average}</p></div>
+            </div>
+                
+           
+        </div>
+     );
+}
+ 
+export default Moviecard;

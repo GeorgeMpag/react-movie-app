@@ -1,0 +1,56 @@
+.r-page{
+   
+    background-color: #1d1d1d;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+}
+.r-movie{
+
+    display: inline-block;
+    margin:1rem;
+}
+
+
+.pagination{
+    display: flex;
+    margin: 1em ; 
+    justify-content: space-between;
+    list-style-type: none;
+    color:  whitesmoke;
+    height: 3.2em;
+}
+
+.pagination a{
+    cursor: pointer;
+    border: rgb(59, 59, 59) solid 1px;
+    border-radius: 5px;
+    font-size: smaller;
+    padding: .2em;
+    
+}
+
+
+.pagination a:hover{
+    background-color: whitesmoke;
+    color: rgb(59, 59, 59);
+
+}
+.break{
+    pointer-events: none; 
+}
+
+.active a{
+    pointer-events: none;
+    background-color: whitesmoke;
+    color: rgb(59, 59, 59);
+}
+
+
+@media (min-width: 860px){
+     .r-movie{
+         transform:scale(1);
+     }
+}
