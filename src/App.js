@@ -15,8 +15,10 @@ function App() {
         <div className="App "> 
           <Navbar/>
           <Switch>
-            <Route exact path="/">
-              <Carousel  />
+            <Route  exact path="/">
+              <div id="carousel">
+                <Carousel  />
+              </div>
               <NewReleases/>
             </Route>
             <Route  path="/moviedetails/:id">

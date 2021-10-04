@@ -5,7 +5,6 @@
 
   color:whitesmoke;
  
- 
 }
 
 
@@ -14,4 +13,6 @@ a{
  
 }
 
-
+#carousel{
+  background-color: #1d1d1d;
+}
