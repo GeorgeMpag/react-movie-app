@@ -22,10 +22,14 @@ function App() {
               <NewReleases/>
             </Route>
             <Route  path="/moviedetails/:id">
-               <Moviedetails/>
+              <div id="m-details"> 
+                <Moviedetails />
+              </div>
             </Route>
             <Route  path="/results/:searchcontent/page:page_number">
+              
                <ResultsPage/>
+              
             </Route>
             
           </Switch>

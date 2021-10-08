@@ -54,3 +54,14 @@
          transform:scale(1);
      }
 }
+
+@media (min-width: 1025px){
+    #page{
+        max-width: 80vw;
+        margin:auto;
+        /* height: 30vh; */
+        
+    }
+
+ 
+}

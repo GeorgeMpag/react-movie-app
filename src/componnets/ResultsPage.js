@@ -47,7 +47,8 @@ const ResultsPage = () => {
     
         return ( 
         <div className="r-page">
-           {movies &&  movies.results.map(movie =>(
+            <div id="page">
+            {movies &&  movies.results.map(movie =>(
             <div className="r-movie"> 
             <Link to={`/moviedetails/${movie.id}`}>
               <Moviecard movie={movie}/>
@@ -70,6 +71,8 @@ const ResultsPage = () => {
                 activeClassName={'active'}
                 
                 />}
+            </div>
+           
        
         </div> 
         
