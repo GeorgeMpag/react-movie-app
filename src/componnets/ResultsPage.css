@@ -64,4 +64,17 @@
     }
 
  
+    .pagination{
+        justify-content:center;
+       }
+
+    .pagination li{
+        margin-left:8px;
+        margin-right: 8px;
+        height: 20px;
+    }
+
+    .pagination a{
+        padding: .9em;
+    }
 }
