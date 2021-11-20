@@ -17,7 +17,7 @@
 .pagination{
     display: flex;
     margin: 1em ; 
-    justify-content: space-between;
+    justify-content: center;
     list-style-type: none;
     color:  whitesmoke;
     height: 3.2em;
@@ -32,6 +32,14 @@
     
 }
 
+.pagination a{
+    padding: .6em;
+}
+
+.pagination li{
+    margin-left:.2em;
+    margin-right: .2em;
+}
 
 .pagination a:hover{
     background-color: whitesmoke;
@@ -53,6 +61,16 @@
      .r-movie{
          transform:scale(1);
      }
+
+
+     
+    .pagination li{
+        margin-left:.3em;
+        margin-right: .3em;
+    }
+    .pagination a{
+        padding: .7em;
+    }
 }
 
 @media (min-width: 1025px){
@@ -64,14 +82,9 @@
     }
 
  
-    .pagination{
-        justify-content:center;
-       }
-
     .pagination li{
-        margin-left:8px;
-        margin-right: 8px;
-        height: 20px;
+        margin-left:.5em;
+        margin-right: .5em;
     }
 
     .pagination a{

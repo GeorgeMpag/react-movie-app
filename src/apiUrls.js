@@ -5,7 +5,7 @@
  const search="https://api.themoviedb.org/3/search/movie?api_key="
  const discover_api="https://api.themoviedb.org/3/discover/movie?api_key="
  const image_api="https://image.tmdb.org/t/p"
- const movies="//api.themoviedb.org/3/discover/movie?api_key="
+ const movies="https://api.themoviedb.org/3/movie/now_playing?api_key="
  const movie_details="https://api.themoviedb.org/3/movie/"
  //https://api.themoviedb.org/3/discover/movie?api_key=415156bd1fea240753b98479def9c8fc&sort_by=release_date.desc
 

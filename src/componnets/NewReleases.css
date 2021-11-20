@@ -1,10 +1,9 @@
 .new-releases{
     background-color: #1d1d1d;
     color:white;
-    width: inherit;
-    position:relative
-    /* border: green solid 3px; */
-  
+    /* width: inherit; */
+    position:relative;
+    
   }
 .new-releases h2 {
     margin-left:1.5rem;
@@ -36,7 +35,7 @@
 
     .new-releases{
       font-size: large;
-      height: fit-content;
+      /* height: fit-content; */
       /* border: green solid 3px; */
     
     }

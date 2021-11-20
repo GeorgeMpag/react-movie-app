@@ -155,7 +155,7 @@ right:2%;
 
     .body{
         background-color: #1d1d1d;
-        height:30rem;
+        min-height:35em;
         padding-bottom: 2rem;
         padding-top: 1rem;
     }
