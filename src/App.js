@@ -17,15 +17,21 @@ function App() {
           <Navbar/>
           <Switch>
             <Route  exact path="/">
-              <div id="carousel">
-                <Carousel  />
+             <div className="a_container"> 
+                <div id="carousel">
+                  <Carousel  />
+                </div>
               </div>
-              <NewReleases/>
+              <div className="a_container"> 
+                <NewReleases/>
+              </div>
             </Route>
             <Route  path="/moviedetails/:id">
+            <div className="a_container"> 
               <div id="m-details"> 
                 <Moviedetails />
               </div>
+            </div>
             </Route>
             <Route  path="/results/:searchcontent/page:page_number">
               
