@@ -26,19 +26,23 @@ const Navbar = () => {
     return ( 
         <div className="navbar ">
             <div className="burger-icon"> <button className="burger" onClick={showMenu}></button></div>
+            <div className ="logoNlinks">
             <div className="logo "> app logo</div>
-            <ul id="menu">
-                <Link to="/">
-                    <li >Home</li>
-                </Link>
-                <Link to="/results/newreleases/page1">
-                    <li >New Releases</li>
-                </Link>
-                <Link to="/results/popular/page1">
-                    <li >Popular</li>
-                </Link>    
-             
-            </ul>
+               
+                <ul id="menu">
+                    <Link to="/">
+                        <li >Home</li>
+                    </Link>
+                    <Link to="/results/newreleases/page1">
+                        <li >New Releases</li>
+                    </Link>
+                    <Link to="/results/popular/page1">
+                        <li >Popular</li>
+                    </Link>    
+                
+                </ul>
+              
+            </div>
             <div className="search-bar">
                 <Search/>
             </div>

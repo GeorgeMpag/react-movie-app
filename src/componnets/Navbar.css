@@ -15,7 +15,8 @@
 .burger-icon button{
     width: .9rem;
     height:.9rem;
-    margin-left:.4rem
+    margin-left:.4rem;
+    position:relative;
 }
 
 .navbar ul{
@@ -24,8 +25,8 @@
     background-color: rgba(20, 20, 20, 0.815);
     border-radius:7px ;
     position:absolute;
-    top: 1.4rem;
-    left: .4rem;
+    top: 2rem;
+    left: 3rem;
     z-index:2;
     display: none;
 }
@@ -40,6 +41,7 @@
 
 .navbar .logo{
     margin-left: .6rem;
+    padding-right: .8rem;
 }
 
 @media (min-width: 680px){
@@ -48,9 +50,10 @@
         font-size: medium;
          display: flex;
          justify-content: space-between;
+         /* border: lawngreen solid 4px; */
     }
     
-
+ 
     .navbar .burger-icon{
         display: none;
     }
@@ -63,25 +66,27 @@
     .navbar ul {
        
         top: -.3rem;
-        left: 8rem;
-        position:absolute;
+        left: 10%;
+        position:static;
+        
         background-color: transparent;
-        display:block;
+        display:flex;
         margin-bottom: .4rem;
         width: 16rem;
-        
+        /* border: red solid 4px; */
     }
+
+    .logoNlinks{
+        display: flex;
+        justify-content: space-between;
+    }
+
     .navbar ul li {
         font-size: medium;
         width: 4rem;
         padding:0;
         line-height: .8rem;
-        padding-top: .4rem;
+        /* padding-top: .4rem; */
     }
 }
 
-
-@media (min-width: 860px){
-
-
-}
